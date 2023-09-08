@@ -1,0 +1,69 @@
+:root{
+    --back: url(background.jpg);
+    --day: #000;
+    --input-menu: #0f0;
+    --inputs:#7fd;
+}
+body{
+    background: var(--back);
+    background-size: cover;
+}
+.schedule{
+    display:flex;
+    height: 200px;
+}
+.day{
+    background: var(--day);
+    flex:1;
+    margin-left: 10px;
+    color:white;
+    border-radius: 10px;
+    opacity: 70%;
+    height: fit-content;
+    margin-top: 100px;
+}
+header{
+    text-align: center;
+    font-size: 150%;
+}
+ol{
+    margin-left: 0;
+    text-align: center;
+}
+.data{
+    margin: auto;
+    width: 250px;
+    border-radius: 10px;
+    background-color: var(--day);
+    opacity: 60%;
+    height: 2.5rem;
+    display:flex;
+}
+input{
+    border:0.1px solid white;
+    border-radius: 5px;
+    margin-top: 0.125rem;
+    height: 2rem;
+    background-color: var(--day);
+    text-align: center;
+    opacity: 70%;
+    color:white;
+}
+input:focus,select:focus{
+    outline:none;
+}
+select{
+    border:none;
+    background-color: var(--day);
+    opacity: 70%;
+    color: white;
+    margin-left: 10px;
+}
+img{
+    width: 1rem;
+    float: right;
+    margin-right: 10px;
+}
+span{
+    font-size: 18px;
+}
