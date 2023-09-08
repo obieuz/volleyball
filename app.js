@@ -1,5 +1,6 @@
-let input=document.querySelector(".text")
-const socket=io('https://api.render.com/deploy/srv-cjtmhn15mpss73ba3js0?key=l51-Lr2ccWQ');
+let input=document.querySelector(".text");
+
+const socket=io('https://volleyball-schedule.onrender.com.');
 let obj;
 let previous;
 socket.on("message",message=>{
